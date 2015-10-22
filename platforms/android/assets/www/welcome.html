@@ -16,6 +16,17 @@
  <!--<link rel="stylesheet" href="dist/css/framework7.material.colors.min.css">  -->
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="dist/css/my-app.css">
+<!--CSS -->
+  <!--กำหนดปก -->
+<style>
+  .demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+  }
+
+</style>
+ <!--.CSS-->
   </head>
   <body> 
     <!-- Status bar overlay for fullscreen mode-->
@@ -40,10 +51,9 @@
           คุณสามารถปิดเมนูได้ด้วยการแตะที่หน้าจอหลักหรือแตะปุ่ม<a href="#" class="close-panel">ปิดเมนู</a>
                 <!--ส่วนเมนู-->
                 <div class="list-block">
-                    
-                <ul>
+                     <ul>
                   <li> <!--เมนูหลัก -->
-                      <a href="profile.html" class="item-link item-content">
+                      <a href="welcome.html" class="item-link item-content">
                     <!--  <div class="item-media"><i class="icon icon-form-url"></i></div> -->
                       <div class="item-inner">
                         <div class="item-title">หน้าหลัก</div>
@@ -52,7 +62,7 @@
                     </a>
                   </li>
                   <li> <!--เมนูกิจกรรม -->
-                    <a href="#" class="item-link item-content">
+                    <a href="profile.html" class="item-link item-content">
                     
                       <div class="item-inner">
                         <div class="item-title">กิจกรรม</div>
@@ -124,8 +134,8 @@
                       </div>
                     </a>
                  </li>
-                  
-                </ul>
+</ul>
+                
   <div class="list-block-label">ใส่คำแนะนำการใช้งานแอฟ</div>
 </div>
                 <!--.ส่วนเมนู-->
@@ -159,6 +169,34 @@
             <div class="page-content">
                    <!--เนื้อหา-->
 
+ 
+<!--<div class="content-block-title">Styled Cards</div> -->
+                <!-- กิจกรรม -->
+                <div class="card demo-card-header-pic">
+                    <a href="profile.html"><div style="background-image:url(http://www.royalparkrajapruek.org/main/gallery/J420110407122501.jpg)" valign="bottom" class="card-header color-white no-border">กิจกรรมและเทศกาล</div></a>
+                  <div class="card-content">
+                    <div class="card-content-inner">
+
+                      <p>คำโปรย...</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="link">รายละเอียด...</a>
+                  </div>
+                </div>
+                <!-- สถานที่แนะนำ -->
+                <div class="card demo-card-header-pic">
+                    <a href="#"><div style="background-image:url(http://www.royalparkrajapruek.org/main/gallery/J420110407122501.jpg)" valign="bottom" class="card-header color-white no-border">สถานที่ภายในอุทยานหลวงราชพฤกษ์</div></a>
+                  <div class="card-content">
+                    <div class="card-content-inner">
+
+                      <p>คำโปรย...</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="link">รายละเอียด...</a>
+                  </div>
+                </div>
 
 
                    <!--.เนื้อหา-->
@@ -167,7 +205,7 @@
         </div>
         <!-- Bottom Toolbar-->
        <div class="toolbar">
-            <div class="toolbar-inner"><a href="include-page/profile.html" class="link">ลิงค์1</a><a href="#" class="link">ลิงค์2</a></div>
+           <div class="toolbar-inner"><a href="profile.html" class="link">ข่าว/กิจกรรม</a><a href="welcome.html" class="link">หน้าหลัก</a><a href="#" class="link">แผนที่/ติดต่อ</a></div>
         </div>  
        
       </div>
